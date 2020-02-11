@@ -24,7 +24,7 @@ body {
     color: #fff;
 }
 
-.indicator.header{
+.indicator .header{
     text-align: center;
     /* float: left; */
     font-size: 15px;
@@ -34,8 +34,12 @@ body {
     border-top-right-radius: 4px;
 }
 
-.indicator.value{
+.indicator .value{
     /* color: #2a3f5f; */
     font-size: 20px;
     text-align: center;
+}
+
+.row {
+    margin: 5px;
 }
