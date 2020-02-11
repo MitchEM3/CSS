@@ -49,20 +49,25 @@ body {
   }
   
   .Select-value {
-    color:#fff !important;
+    color:#fff;
   }
   .Select-value-label {
     color: #fff !important;
   }
   
   .Select--multi .Select-value {
-    background-color:rgba(80, 187, 73, 0.801);
+    background-color:rgba(80, 187, 73, 0.685);
     border: 1px solid rgb(80, 187, 73);
-    color:#50bb49;
+    color:#388659;
+    margin-bottom: 5px;
 }
 
-  .Select--multi .Select-value-icon {
+.Select--multi .Select-value-icon {
     border-right: 1px solid rgba(80,187,73,.24);
+    color:#388659;
+}
+.Select--multi .Select-value-icon:hover {
+    color:#50bb49;
 }
 
   .Select-menu-outer {
@@ -71,7 +76,7 @@ body {
     border-top-color:#456990 !important
   }
 
-  .Select-menu-outer:hover {
+  .Select-menu-outer.is-focused:hover {
     background-color:#50bb49 !important;
   }
   
