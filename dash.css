@@ -52,15 +52,19 @@ body {
     color:#fff;
   }
   .Select-value-label {
-    color: #fff !important;
+    color: #275c3d !important;
   }
   
-  .Select--multi .Select-value {
+.Select--multi .Select-value {
     background-color:rgba(80, 187, 73, 0.685);
     border: 1px solid rgb(80, 187, 73);
     color:#275c3d !important;
     margin-bottom: 5px !important;
 }
+
+/* .Select--multi .Select-value .Select-value-label{
+    color:#275c3d !important;
+} */
 
 .Select--multi .Select-value-icon {
     border-right: 1px solid rgba(80,187,73,.24);
@@ -76,15 +80,19 @@ body {
     border-top-color:#456990 !important
   }
 
-  .Select-menu-outer.is-focused:hover {
+.VirtualizedSelectFocusedOption {
+    background-color: #50bb49;
+}
+
+  /* .Select-menu-outer.is-focused:hover {
     background-color:#50bb49 !important;
   }
   
   .Select-option.is-focused {
     background-color:#456990 !important;
-    /* background-color:rgba(0,126,255,.08); */
+    background-color:rgba(0,126,255,.08); 
     color:#fff !important;
-  }
+  } */
   
   .is-open>.Select-control {
     background:#456990 !important;
