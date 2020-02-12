@@ -47,10 +47,18 @@ body {
     color:#fff !important;
     border: 1px solid #456990 !important;
   }
-  
-  .Select-value {
+
+.Select-arrow {
+    border-color: #50bb49 transparent transparent;
+}
+
+.Select-clear-zone {
+    color: #50bb49;
+}
+
+.Select-value {
     color:#fff;
-  }
+}
   .Select-value-label {
     color: #275c3d !important;
   }
@@ -283,5 +291,9 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input[type="checkbox"], input[type="radio"]:checked:after {
+    background-color: #50BB49;
+}
+
+input[type="radio" i] {
     background-color: #50BB49;
 }
