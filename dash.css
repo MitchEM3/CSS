@@ -67,7 +67,7 @@ body {
 }
 
 .Select-value {
-    color:#fff;
+    color:#fff !important;
 }
  
   
@@ -84,7 +84,7 @@ body {
 
 .Select--multi .Select-value-icon {
     border-right: 1px solid rgba(80,187,73,.24);
-    color:#275c3d;
+    /* color:#275c3d; */
 }
 .Select--multi .Select-value-icon:hover {
     color:#50bb49;
