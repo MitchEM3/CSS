@@ -78,9 +78,9 @@ body {
     margin-bottom: 5px !important;
 }
 
-/* .Select--multi .Select-value .Select-value-label{
-    color:#275c3d !important;
-} */
+.Select--multi .Select-value .Select-value-label{
+    color:#fff !important;
+}
 
 .Select--multi .Select-value-icon {
     border-right: 1px solid rgba(80,187,73,.24);
