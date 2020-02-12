@@ -48,20 +48,28 @@ body {
     border: 1px solid #456990 !important;
   }
 
+.Select-placeholder {
+    color: rgb(209, 209, 209);
+}
 .Select-arrow {
-    border-color: #50bb49 transparent transparent;
+    border-color: #000000 transparent transparent;
+}
+
+.is-open>.Select-control .Select-arrow {
+    border-color: transparent transparent #000000;
+}
+.Select-arrow-zone:hover>.Select-arrow, .is-open .Select-arrow {
+    border-top-color: #000000;
 }
 
 .Select-clear-zone {
-    color: #50bb49;
+    color: #000000;
 }
 
 .Select-value {
     color:#fff;
 }
-  .Select-value-label {
-    color: #275c3d !important;
-  }
+ 
   
 .Select--multi .Select-value {
     background-color:rgba(80, 187, 73, 0.685);
