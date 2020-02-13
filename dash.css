@@ -327,7 +327,7 @@ input[type="radio" i] {
     border-left: 0px !important;
     border-right: 0px !important;
     border-bottom: 0px !important;
-    background-color: #020709; 
+    background-color: #020709 !important; 
     display: flex !important;
     align-items: left;
     justify-content: left;
