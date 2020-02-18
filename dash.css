@@ -342,6 +342,10 @@ input[type="radio" i] {
     justify-content: left !important;
 }
 
+.tab-content {
+    width: 100%;
+}
+
 .box{
     border:1px solid #456990;
     border-radius: 3px;
