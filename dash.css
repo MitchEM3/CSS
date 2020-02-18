@@ -332,7 +332,7 @@ input[type="radio" i] {
     display: flex !important;
     align-items: left;
     justify-content: left;
-    text-align: left;
+    text-align: left !important;
 }
 
 .tab--selected {
@@ -341,7 +341,7 @@ input[type="radio" i] {
     display: flex !important;
     align-items: left !important;
     justify-content: left !important;
-    text-align: left;
+    text-align: left !important;
 }
 
 .tab-content {
