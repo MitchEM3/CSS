@@ -398,3 +398,20 @@ input[type="radio" i] {
   white-space: nowrap;
 }
 
+.td-limit {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.datatable td span{
+    display: block;
+    overflow: hidden;
+}
+
+.tdfield{
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
