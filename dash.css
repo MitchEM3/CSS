@@ -415,3 +415,11 @@ white-space: nowrap;
 overflow: hidden;
 }
 
+table.display td {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+layout: fixed;
+}
+
