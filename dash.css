@@ -358,7 +358,8 @@ input[type="radio" i] {
 }
 
 .box-header {
-    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     /* background-color: #456990; */
     text-align: center;
     color: '#fff';
