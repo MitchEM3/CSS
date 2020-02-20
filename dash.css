@@ -3,7 +3,7 @@
 body {
     font-family: "Ubuntu", sans-serif;
     color: white;
-    background-color: #252525;
+    background-color: #020709;
     font-size: large;
 }
 
@@ -316,7 +316,7 @@ input[type="radio" i] {
 
 .tab-parent {
     border-top-left-radius: 3px;
-    background-color: #020709;
+    background-color: #242424;
     width: 100%;
 }
 
@@ -328,7 +328,7 @@ input[type="radio" i] {
     border-left: 0px !important;
     border-right: 0px !important;
     border-bottom: 0px !important;
-    background-color: #020709 !important; 
+    background-color: #242424 !important; 
     display: flex !important;
     align-items: left;
     justify-content: left;
