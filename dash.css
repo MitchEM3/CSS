@@ -393,5 +393,7 @@ input[type="radio" i] {
     margin-bottom:1px;
 }
 
-
+.sub-tab{
+    border-bottom:1px solid #456990 !important;
+}  
 
