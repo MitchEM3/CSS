@@ -366,6 +366,7 @@ input[type="radio" i] {
     float: left;
     margin-top:0px;
     margin-bottom:1px;
+    padding-bottom: 0px;
   }
 
 .box-contents {
