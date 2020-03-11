@@ -398,3 +398,11 @@ input[type="radio" i] {
     border-bottom:3px solid #456990 !important;
 }  
 
+.btn{
+    border-radius: 3px;
+    background-color: #456990;
+    text-align: center;
+    color: '#fff';
+    font-weight: bold;
+    float: left;
+}
