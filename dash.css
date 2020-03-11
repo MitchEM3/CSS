@@ -408,3 +408,8 @@ input[type="radio" i] {
     float: left;
     padding: 10px;
 }
+.btn:hover{
+  background-color: #50BB49;
+  color: #fff !important;
+  text-decoration: none;
+}
