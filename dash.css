@@ -399,10 +399,12 @@ input[type="radio" i] {
 }  
 
 .btn{
-    border-radius: 3px;
+    border:1px solid #456990;
+    border-radius: 4px;
     background-color: #456990;
     text-align: center;
     color: '#fff';
     font-weight: bold;
     float: left;
+    padding: 10px;
 }
