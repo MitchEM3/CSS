@@ -413,3 +413,7 @@ input[type="radio" i] {
   color: #fff !important;
   text-decoration: none;
 }
+
+.svg-container{
+    margin: auto;
+}
