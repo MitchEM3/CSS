@@ -415,5 +415,5 @@ input[type="radio" i] {
 }
 
 .svg-container{
-    margin: auto;
+    margin: auto !important;
 }
